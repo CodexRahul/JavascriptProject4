@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bg">
+
+    <div class="form_back">
+        <div class="form_section">
+            <section>
+                Already have an account?
+                <button onclick="signinbutton()">Sign in</button>
+            </section>
+            <section>
+                Don't have an account?
+                <button onclick="signupbutton()">Sign Up</button>
+            </section>
+
+            <div class="main_form" id="form">
+                <div class="login form">
+                    <div>
+                        <div class="heading">
+                            <img src="images/signin.png" alt="" srcset="">
+                            <h2>Login</h2>
+                        </div>
+                        <input type="text" placeholder="Username or Email" name="" id="">
+                        <input type="password" placeholder="Username or Email" name="" id="">
+                        <input type="submit" value="Login">
+                        <p>Already have an account? <a onclick="signupMobilebutton()">Signin</a></p>
+                    </div>
+                </div>
+
+                <div class="register form">
+                    <div>
+                        <div class="heading">
+                            <img src="images/signup.png" alt="" srcset="">
+                            <h2>Register</h2>
+                        </div>
+                        <input type="text" placeholder="Your Name" name="" id="">
+                        <input type="email" placeholder="Your Email" name="" id="">
+                        <input type="text" placeholder="Your Phone No" name="" id="">
+                        <input type="text" placeholder="Username" name="" id="">
+                        <input type="password" placeholder="Username or Email" name="" id="">
+                        <input type="submit" value="Register">
+                        <p>Don't have an account? <a onclick="signinMobilebutton()">Signup</a></p>
+                    </div>
+                </div>
+
+            
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
